@@ -1,0 +1,7 @@
+.user-poll { border: 1px solid #000000; border-radius: 4px; padding: 2px; width: auto; background: #FFF; }
+.poll-voting-box { float: left; }
+.answer-poll { padding: 10px; }
+.answer-poll:hover { background: #cce0ec; }
+.answer-label { width: 100%; }
+.answer-image { float: left;margin-right: 10px; }
+.poll-expire { font-size: 11px; background: #ece2e7; padding: 5px; border-radius: 4px; float: left;  }

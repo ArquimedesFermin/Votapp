@@ -1,0 +1,36 @@
+#preview_loading { position: fixed; bottom: 50px; left: 50px; font-size: 24px; display: none; border: 1px solid #000; color: #FFF; padding: 5px; background: #000; border-radius: 4px; z-index: 9999; }
+.spin{
+     -webkit-transform-origin: 50% 58%;
+     transform-origin:50% 58%;
+     -ms-transform-origin:50% 58%; /* IE 9 */
+     -webkit-animation: spin .8s infinite linear;
+     -moz-animation: spin .8s infinite linear;
+     -o-animation: spin .8s infinite linear;
+     animation: spin .8s infinite linear;
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
